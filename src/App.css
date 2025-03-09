@@ -630,6 +630,25 @@ margin-left: 5px;
   justify-content: center;
   text-align: center;
 }
+.eleft{
+  margin-right: 20%;
+
+}
+.education{
+  margin-left: 50%;
+  color: white;
+  width: 120px;
+  height: 40px;
+  background: linear-gradient(to bottom, #18012d, #6b05cb);
+border-radius: 10px;
+}
+  .educ{
+    font-size: 20px;
+    position: absolute;
+ margin-top: 7px;
+ margin-left: 20px;
+ 
+  }
 .ebox{
   overflow: visible;
   border-radius: 10px;
@@ -641,8 +660,15 @@ margin-left: 5px;
   align-items: center; /* Vertical center alignment */
   gap: 15px; /* Space between icon and text */
   margin-top: 30px;
-  padding: 10px 20px;
+  
 
+}
+.ebox:hover{
+border: 2px solid #16F2B3;
+box-shadow: 5px 5px 10px #16F2B3;
+}
+.eiconBox{
+  margin-left: 10px;
 }
 
 .eyear{
