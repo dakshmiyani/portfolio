@@ -99,9 +99,9 @@ margin-top: -90px;
         z-index: -1;
      }
      .leftcontactme:hover{
-        width:200px;
+        
         cursor: pointer;
-        font-size: 30px;
+   
         box-shadow: 5px 5px 10px #430693;
 
      }
