@@ -4,6 +4,7 @@ import js from "./assets/js.png";
 import cplus from "./assets/cplus.png";
 import c from "./assets/c.png";
 import figma from "./assets/figma.png";
+import react from"./assets/react.png";
 
 function Skills() {
   return (
@@ -48,6 +49,11 @@ function Skills() {
                <h3 className="skillh3">Figma</h3>
           </div>
           
+          <div className="skillbox">
+            <img className="skillimg" src={react} alt="HTML" />
+            <br />
+               <h3 className="skillh3">React</h3>
+          </div>
           
         </div>
       </div>

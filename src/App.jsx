@@ -7,6 +7,8 @@ import AboutMe from './secttion2';
 import Experience from './section3';
 import Skills from './skills';
 import Projects from './projects';
+import Phone from './projectphone';
+import Education from './education';
 
 import './App.css'
 
@@ -34,6 +36,16 @@ function App() {
        <section>
         <Projects/>
        </section>
+       
+       <section>
+        <Phone/>
+        
+       </section>
+       <br />
+       <section>
+        <Education/>
+       </section>
+       
    
     </>
   )

@@ -474,14 +474,18 @@ text-align: center;
 /* project */
 
 .projh{
+  margin-left: 50%;
+  margin-top: 20px;
   height: 40px;
-  width: 90px;
+  width: 120px;
   text-align: center;
-  background: linear-gradient(to bottom, #18012d, #6b05cb);
+  background: linear-gradient(to bottom, #18012d, #430693);
+  border-radius: 5px;
 }
 .projhp{
+  margin-top: 30px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 .projectbox{ height: 470px ;
@@ -534,4 +538,135 @@ transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   padding: 32px;
   font-size: 20px;
   color: white;
+}
+
+
+
+
+/* mobile design */
+.phoneOUT{
+  display: inline-block;
+  height: 390px;
+  width: 250px;
+  background-color: #4a22e9;
+  margin-left:45px;
+  border-radius: 20px;
+}
+
+.phonein{
+  position: absolute;
+  margin-left: 10px;
+ margin-top: 15px;
+  border-radius: 20px;
+height: 320px;
+width: 230px;
+background: linear-gradient(to right,#000000,#0A0E33);
+}
+.rndbtn{
+  margin-top: 129%;
+  margin-left: 40%;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.border{
+  border-bottom: 1px solid gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.visitbtn{
+  cursor: pointer;
+  margin-top: -30px;
+  margin-left: 35%;
+  height: 20px;
+  width: 70px;
+  background-color: #16F2B3;
+  text-align: center;
+  border-radius:20px ;
+}
+.visit{
+font-size: 18px;
+  
+  color: white;
+}
+
+.phoneimg{
+  margin-top: 10px;
+margin-left: 10px;
+  width:210px ;
+ height:200px;
+ border: 2px solid white;
+ border-radius: 10px;
+}
+.phoneh1{
+
+  margin-top: 5px;
+  font-size: 20px;
+text-align: center;
+color: white;
+}
+.phonep{
+  margin-top: -15px;
+text-align: center;
+margin-left: 5px;
+  color: #DB276F;
+}
+.avisit{
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+/* education */
+
+
+.educationsection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ebox{
+  overflow: visible;
+  border-radius: 10px;
+  background-color: #18012d;
+  width: 500px;
+  height: 120px;
+  border: 2px solid white;
+  display: flex;  /* Flexbox for layout */
+  align-items: center; /* Vertical center alignment */
+  gap: 15px; /* Space between icon and text */
+  margin-top: 30px;
+  padding: 10px 20px;
+
+}
+
+.eyear{
+  color:#16F2B3;
+  position: absolute ;
+  margin-left: 150px;
+  margin-top:-100px ;
+  
+}
+.efix{
+  margin-right: 340px;
+  margin-top: -5%;
+}
+.eth1{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  
+  margin-top: -5%;
+  font-weight: bold;
+}
+.epbox{
+  position: absolute;
+  margin-top: -3%;
+  color: white;
+
 }
