@@ -499,9 +499,9 @@ text-align: center;
   margin-left: 50%;
   margin-top: 20px;
   height: 40px;
-  width: 120px;
+  width: 140px;
   text-align: center;
-  background: linear-gradient(to bottom, #18012d, #430693);
+  background: linear-gradient(to bottom, #18012d, #330693);
   border-radius: 5px;
 }
 .projhp{
@@ -516,7 +516,7 @@ border: 2px solid white;
 box-shadow: 10px 10px 20px black;
 
 margin: 40px;
-margin-left: 30%;
+margin-left: 35%;
 margin-right: 50%;
 border-radius: 10px;
 background: linear-gradient(to right,#080b16,#0A0E33);
