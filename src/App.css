@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #0D1224;
