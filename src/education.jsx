@@ -33,7 +33,7 @@ function Education(){
              <FontAwesomeIcon className='eiconBox' icon={faLaptop} size="3x" style={{ color: "purple" }} />
              </div>
             < div className='efix'>
-          <span className='eth1'>S.V.P. Juinor college</span><br />
+          <span className='eth1'>S.V.P. Junior college</span><br />
           <span className='epbox'>Higher Secondary Education</span>
         </div>
 
@@ -42,7 +42,7 @@ function Education(){
              <FontAwesomeIcon className='eiconBox' icon={faLaptop} size="3x" style={{ color: "purple" }} />
              </div>
             < div className='efix'>
-          <span className='eth1'>S.T. Xavier's High School</span><br />
+          <span className='eth1'>St. Xavier's High School</span><br />
           <span className='epbox'>Secondary Education</span>
         </div>
         </div>

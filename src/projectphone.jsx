@@ -75,7 +75,7 @@ function Phone(){
                 <img className="phoneimg" src={daimond} alt=" Daimond PriceXpert" />
                 </div>
                 <div className="phonetxt">
-                    <h1 className="phoneh1"> Daimond PriceXpert</h1>
+                    <h1 className="phoneh1"> Diamond PriceXpert</h1>
                     
                     <p className="phonep">Accurately estimate diamond prices with ease.</p>
    
