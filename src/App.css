@@ -674,7 +674,7 @@ box-shadow: 5px 5px 10px #16F2B3;
 .eyear{
   color:#16F2B3;
   position: absolute ;
-  margin-left: 150px;
+  margin-left: 190px;
   margin-top:-100px ;
   
 }
@@ -695,4 +695,95 @@ box-shadow: 5px 5px 10px #16F2B3;
   margin-top: -3%;
   color: white;
 
+}
+
+/* contact form */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  padding: 20px;
+}
+
+.contact-form, .contact-info {
+  background: radial-gradient(#080b16,#0c253f,#295d95);
+  background: linear-gradient(to left,);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+.contact-form {
+  margin-right: 20px;
+  color: white;
+}
+
+.contact-form h2, .contact-info h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+ 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  margin-left: 40%;
+  width: 70px;
+  padding: 10px;
+  background: linear-gradient(to right, #DB276F,#0056b3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  color: white;
+
+  text-align: left;
+  height: 350px;
+}
+
+.contact-info p {
+  font-size: 25px;
+  margin: 10px 0;
+  color: white;
+}
+.conc{
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+
+/* footer */
+
+.fborder{
+  border: 2px solid gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.biocyan{
+  color: #16F2B3;
 }

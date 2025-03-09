@@ -29,21 +29,21 @@ function Education(){
           <span className='epbox'>Bachelor of Engineering</span>
         </div>
         <div className='ebox'>
-             <span className='eyear'>(JAN 2025 - PRESENT)</span>
+             <span className='eyear'>2022 - 2024</span>
              <FontAwesomeIcon className='eiconBox' icon={faLaptop} size="3x" style={{ color: "purple" }} />
              </div>
             < div className='efix'>
-          <span className='eth1'>Atharva college of Engineering</span><br />
-          <span className='epbox'>Bachelor of Engineering</span>
+          <span className='eth1'>S.V.P. Juinor college</span><br />
+          <span className='epbox'>Higher Secondary Education</span>
         </div>
 
         <div className='ebox'>
-             <span className='eyear'>(JAN 2025 - PRESENT)</span>
+             <span className='eyear'>2008 - 2022</span>
              <FontAwesomeIcon className='eiconBox' icon={faLaptop} size="3x" style={{ color: "purple" }} />
              </div>
             < div className='efix'>
-          <span className='eth1'>Atharva college of Engineering</span><br />
-          <span className='epbox'>Bachelor of Engineering</span>
+          <span className='eth1'>S.T. Xavier's High School</span><br />
+          <span className='epbox'>Secondary Education</span>
         </div>
         </div>
         </div>
