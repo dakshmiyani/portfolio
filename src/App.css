@@ -1,4 +1,5 @@
 body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #0D1224;
     margin: 0;
 }
@@ -24,18 +25,35 @@ body{
     font-weight: bold;
     margin-right: auto; /* Pushes the nav items to the right */
   }
-  
+  .home-btn a{
+    text-decoration: none;
+    color: #16F2B3;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  .home-btn a:hover{
+    color: white;
+  }
   .navlist {
     font-size: 25px;
     color: white;
     margin-right: 40px; /* Adjust spacing between links */
     cursor: pointer;
   }
-  .navlist:hover {
+  .navlist a:hover {
     color: #DB276F ;
   }
 
-
+  
+  
+.navlist  a{
+  text-decoration: none;
+  font-size: 25px;
+    color: white;
+    margin-right: 40px; /* Adjust spacing between links */
+    cursor: pointer;
+}
 
 
 

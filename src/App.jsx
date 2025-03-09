@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter  } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 import Navbar from './navbar';
 import HeroSection from './section1';
@@ -18,24 +19,38 @@ function App() {
 
   return (
     <>
-     <Navbar/>
+    <BrowserRouter>
+     <div>
+     <div className="navbar">
+            <nav>
+              <ul className="nav-container">
+                <li className="home-btn"><Link className='list' to='#home'>Daksh Miyani</Link></li>
+                <li className="navlist"><Link to='#about'>About</Link> </li>
+                <li className="navlist"><Link to='#experience'>Experience</Link> </li>
+                <li className="navlist"><Link to='#skills'>Skills</Link> </li>
+                <li className="navlist"><Link to='#projects'>Projects</Link> </li>
+                <li className="navlist"><Link to='#education'>Education</Link> </li>
+              </ul>
+            </nav>
+          </div>
+     </div>
     
-     <section> 
+     <section  id="home"> 
      
        <HeroSection/>
        </section>
        <br /><br /><br />
-       <section>
-        <AboutMe/>
+       <section id="about">
+        <AboutMe />
        </section>
-       <section>
-        <Experience/>
+       <section id="experience">
+        <Experience />
        </section>
-       <section>
-        <Skills/>
+       <section id="skills">
+        <Skills />
        </section>
-       <section>
-        <Projects/>
+       <section id="projects">
+        <Projects />
        </section>
        
        <section>
@@ -43,14 +58,15 @@ function App() {
         
        </section>
        <br />
-       <section>
-        <Education/>
+       <section id="education">
+        <Education />
        </section>
        <br /><br />
-       <section>
+       <section id="contact">
         <Contact/>
        </section>
        <br />
+       </BrowserRouter>
        <footer>
         <div className='fborder'></div>
              <p style={{color:"white", fontSize:"20px", marginLeft:"50px",marginTop:"50px",marginBottom:"50px"}}>
