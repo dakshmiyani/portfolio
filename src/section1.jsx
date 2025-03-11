@@ -10,7 +10,7 @@ import {
 
 function HeroSection(){
     return(
-        <section>
+        <section id="heroctn">
      <div className="heroctn">
         <div className="leftfirst">
             <h1 className="lefth1">

@@ -1,6 +1,8 @@
 html{
   scroll-behavior: smooth;
+  
 }
+
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     background-color: #0D1224;
@@ -567,6 +569,7 @@ transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
 /* mobile design */
 .phoneOUT{
+  margin-top: 30px;
   display: inline-block;
   height: 390px;
   width: 250px;
@@ -815,3 +818,4 @@ box-shadow: 5px 5px 10px #16F2B3;
 .biocyan{
   color: #16F2B3;
 }
+
